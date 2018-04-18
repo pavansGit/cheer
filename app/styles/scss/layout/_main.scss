@@ -1,0 +1,77 @@
+body{
+  background-color: #D74254;
+
+}
+h1{
+  font-family: Buffalo Nickel;
+  font-size: 144px;
+  text-align: center;
+  transform: rotate(-16deg);
+  margin-top: 0.5em;
+  color: white;
+}
+.caption{
+  font-family: Calibri;
+  color: white;
+  text-align: center;
+  margin-top: 6.5em;
+  font-size: 24px;
+}
+.sm-caption{
+  font-family: Buffalo Nickel;
+  font-size: 24px;
+  color: white;
+  padding-left: 35.2em;
+  position: relative;
+  top:-1.6em;
+
+}
+.footer-sec{
+  font-family: Calibri;
+  color: #F18787;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22em;
+  margin-bottom: 0em;
+}
+.email-icon{
+  font-size: 28px;
+  margin-left: 4em;
+  position: relative;
+  top:-7.5em;
+}
+
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px){
+
+  h1{
+    font-size: 75px;
+    transform: rotate(-16deg);
+    margin-top: 1.5em;
+  }
+
+  .caption{
+    margin-top: 7.5em;
+    font-size: 16px;
+  }
+  .sm-caption{
+    font-size: 14.8px;
+    padding-left: 20em;
+    position: relative;
+    top:-1.6em;
+}
+
+.footer-sec{
+  font-size: 14px;
+  line-height: 23em;
+}
+.email-icon{
+  font-size: 15.5px;
+  margin-left: 2em;
+  position: relative;
+  top:-11em;
+}
+
+}

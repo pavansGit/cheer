@@ -75,3 +75,37 @@ and (max-width : 568px){
 }
 
 }
+
+@media only screen
+and (min-width : 568px)
+and (max-width : 768px){
+
+  h1{
+    font-size: 130px;
+    transform: rotate(-16deg);
+    margin-top: 2em;
+  }
+  .caption{
+    margin-top: 6.5em;
+    font-size: 30px;
+  }
+  .sm-caption{
+    font-size: 30px;
+    padding-left: 19.5em;
+    position: relative;
+    top:-1.6em;
+}
+.footer-sec{
+  font-size: 23px;
+  line-height: 22em;
+}
+.email-icon{
+  font-size: 18px;
+  margin-left: 4em;
+  position: relative;
+  top:-14em;
+}
+
+
+
+}
